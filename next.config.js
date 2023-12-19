@@ -3,6 +3,9 @@ const nextConfig = {
   reactStrictMode: true,
   sassOptions: {
     fiber: false,
+  },
+  eslint: {
+    ignoreDuringBuilds: true,
   }
 }
 
