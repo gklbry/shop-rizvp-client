@@ -1,4 +1,4 @@
-import { useStore, useUnit } from 'effector-react'
+import { useUnit } from 'effector-react'
 import {
   $boilerManufacturers,
   $partsManufacturers,
