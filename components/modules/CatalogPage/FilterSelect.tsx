@@ -97,16 +97,20 @@ const FilterSelect = ({
       onChange={handleSortOptionChange}
       styles={{
         ...selectStyles,
+        //@ts-ignore
         control: (defaultStyles) => ({
           ...controlStyles(defaultStyles, mode),
         }),
+        //@ts-ignore
         input: (defaultStyles) => ({
           ...defaultStyles,
           color: mode === 'dark' ? '#f2f2f2' : '#222222',
         }),
+        //@ts-ignore
         menu: (defaultStyles) => ({
           ...menuStyles(defaultStyles, mode),
         }),
+        //@ts-ignore
         option: (defaultStyles, state) => ({
           ...optionStyles(defaultStyles, state, mode),
         }),

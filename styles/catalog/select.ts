@@ -48,16 +48,19 @@ export const selectStyles: StylesConfig<IOption, boolean, GroupBase<IOption>> = 
   indicatorSeparator: () => ({
     border: 'none',
   }),
+  //@ts-ignore
   dropdownIndicator: (defaultStyles, state) => ({
     ...defaultStyles,
     transform: state.selectProps.menuIsOpen ? 'rotate(180deg)' : '',
     color: '#1C629E',
   }),
+  //@ts-ignore
   menuList: (defaultStyles) => ({
     ...defaultStyles,
     paddingTop: 0,
     paddingBottom: 0,
   }),
+  //@ts-ignore
   placeholder: (defaultStyles) => ({
     ...defaultStyles,
     color: '#b9babb',
